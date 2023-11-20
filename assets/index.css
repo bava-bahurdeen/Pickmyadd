@@ -1,3 +1,8 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Fraunces:opsz@9..144&family=Poppins&family=Roboto&display=swap');
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +11,12 @@
 body{
     scroll-behavior: smooth;
   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Fraunces', serif;
+    font-family: 'Figtree', sans-serif;
+font-family: 'Roboto', sans-serif; */
 }
 /* header section style */
 header{
@@ -52,12 +63,20 @@ header>.nav-bar{
   }
   /* hero-content style */
 .hero-content{
-margin: 80px 330px;
-font-size: 30px;
+margin: 50px 360px;
 text-align: center;
 }
+.hero-content>h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.22;
+    font-family: 'Figtree', sans-serif;
+     
+}
 .sub-letter{
-   font-weight:lighter
+    font-size: 50px;
+   font-weight:400;
+   font-family: 'Frank Ruhl Libre', serif;
 }
 .search-box{
     width: 800px;
@@ -161,33 +180,38 @@ align-items: center;
 }
   .influncer-content{
     position: absolute;
-    top: 250px;
+    top: 100px;
     left: 100px;
-    padding: 10px;
     width: 350px;
 
 
   }
 
   .title-top{
-font-weight:lighter;
 width: 300px;
 font-size: 17px;
+font-weight: bold;
+padding: 10px;
+letter-spacing: 2px;
   }
   .influncer-title{
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 20px;
+    font-family: "Fraunces", serif;
   }
   .influncer-info{
-    padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+
   }
   .influncer-button{
     margin-top: 10px;
-    width: 250px;
-    height: 40px;
+    width: 220px;
+    height: 55px;
     border-radius: 10px;
+    font-size: 16px;
     background-color: white;
+    color: black;
     border: none
   }
 /* pickmyad work style */
@@ -237,10 +261,15 @@ object-fit: cover;
     left: 330px;
 }
 .work-title{
-    width: 600px;
-    font-size: 60px;
+    width: 500px;
+    font-size: 50px;
     margin-top: 20px; 
+    font-family: "Fraunces", serif;
 }
+.pickmyad-work-content>p{
+    margin-top: 15px;
+}
+
 /* success-content style */
 .success{
     display: flex;
@@ -249,12 +278,13 @@ object-fit: cover;
 }
 .success-content{
     margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 .success-head{
     color: red;
     font-weight: bold;
     font-size: 40px;
+    font-family: "Roboto", sans-serif;
 }
 /* experience-container style */
 .experience-container{
@@ -262,7 +292,7 @@ object-fit: cover;
    width: 75rem;
    margin: 50px 70px;
    border-radius: 50px;
-   height: 480px; 
+   height: 520px; 
    display: flex;
    padding: 18px;
    justify-content: space-between;
@@ -270,20 +300,21 @@ object-fit: cover;
    background-image: linear-gradient(to left, #ace0f9 5%, #fef1eb 90%);
 }
 .experience-content{
-    margin-top: 50px;
-    padding: 15px;
+    margin-top: 20px;
+    padding: 20px;
     width: 660px;
 
 }
 .experience-title{
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 55px;
+    margin-top: 12px;
     font-weight: bold;
+    font-family: 'Fraunces', serif;
 }
 .experience-info{
-    padding: 10px;
+    
     width: 500px;
-    font-size: 17px;
+    font-size: 15px;
 }
 .experience-button{
     width: 120px;
@@ -293,9 +324,11 @@ object-fit: cover;
     border-radius: 8px;
     padding: 10px;
     color: white;
+    cursor: pointer;
+    margin-top: 15px;
 }
 .experience-image>img{
-   width: 300px;
+   width: 500px;
 }
 /* inspire container styles */
 .inspire-container{
@@ -324,11 +357,11 @@ font-size: 14px;
     font-size: 60px;
     margin-top: 20px;
     font-weight: bold;
-    
+    font-family: 'Fraunces', serif;
 }
 .inspire-info{
     padding: 10px;
-    width: 500px;
+    width: 400px;
     font-size: 17px;
 
 }
@@ -352,28 +385,34 @@ font-size: 14px;
 }
 .card{
 height: 350px;
-width: 260px;
+width: 280px;
 display: flex;
 flex-direction: column;
 margin-left: 15px;
-padding: 10px;
-
 }
 
 .card-logo>img{
     width: 60px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 .card-top{
     font-size: 12px;
     margin-top: 10px;
+    margin-left: 30px;
 }
+
+
 .card-info{
     margin-top: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: lighter;
 }
 .card-title{
     font-size: 25px;
     margin-top: 10px;
+    margin-left: 30px;
   
 }
 .card-button{
@@ -387,24 +426,27 @@ padding: 10px;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 27px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 .button-2{
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 .button-3{
     border: none;
     background-color: transparent;
     cursor: pointer;
     margin-top: 100px;
+    margin-left: 20px;
+    font-size: 12px;
 }
-.left-arrow{
-   text-align: center;
-  margin-top: 23px;
-}
+
 /* faq-container style */
 .faq-head{
     text-align: center;
@@ -429,6 +471,15 @@ padding: 10px;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+
+    font-weight: 500;
+}
+.faq-left>li:hover{
+
+    background-color:#281511;
+    color: white;   
 }
 
 .faq-right{
@@ -444,6 +495,13 @@ padding: 10px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    font-weight: 500;
+}
+.faq-right>li:hover{
+
+    background-color:#281511;
+    color: white;   
 }
 .faq-box{
     width: 550px;
@@ -475,6 +533,7 @@ padding: 10px;
     border-radius: 10px;
     color: white;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 .faq-img>img{
@@ -509,6 +568,8 @@ text-align: center;
 .footer-description>ul>li{
     margin-top: 20px;
     list-style-type: none;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
 }
 .footer-links1>span{
     color: #776766;
