@@ -7,26 +7,36 @@
     <link rel="stylesheet" href="./assets/styles/index.css">
     <link rel="stylesheet" href="./assets/styles/animation.css">
     <link rel="stylesheet" href="./assets/styles/Responsive.css">
+    <link rel="stylesheet" href="./assets/styles/tabresponsive.css">
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
+    <div class="container">
+    <header id="header">
+        <nav class="nav-bar" id="sticky-nav">
             <img class="menu-bar" src="./assets/logo/menu.png" alt="menubar">
             <img class="logo" src="./assets/logo/pickmyad.png" alt="pickmyad">
 <ul class="left-part">
 
-    <li>I'm a Creator</li>
-    <li>Case Studies</li>
+    <li><a href="">I'm a Creator</a></li>
+    <li><a href="">Case Studies</a></li>
 </ul>
+<div class="parent-div" id="serach-bar">
+<div class="middle-part" >
+    <input type="text" placeholder="Search by category" name="" id="">
+    <span class="search-line"></span>
+    <span class=""><img src="/assets/logo/searchIcon.svg" alt="" width="16px"></span>
+</div>
+</div>
 
 <ul class="right-part">
-    <li class="non-button">Sign in</li>
-    <li class="button responce">Sign up</li>
+    <li class="non-button"><a href="">Sign in</a></li>
+    <li class="button responce"><button>Sign up</button></li>
+    <li class="button-search"><img src="./assets/logo/searchIcon.svg" alt="search"></li>
 </ul>
         </nav>
         <!-- hero text content -->
         <div class="hero-content">
-            <h1>Discover the <span class="sub-letter">perfect Influncer</span> for your Brand</h1>
+            <h1 class="hero">Discover the <span class="sub-letter">perfect Influncer</span> for your Brand</h1>
         </div>
     </header>
     <!-- search-box content -->
@@ -62,45 +72,47 @@
     </div>
     </div>
     <!-- influncer-box content -->
-    <div class="influncer-box">
+    <div class="influncer-box" id="influncer-box">
         <div class="influncer-content">
             <p class="title-top">COLLABRATE WITH</p>
             <h1 class="influncer-title">Popular Influncer</h1>
             <p class="influncer-info">Discover,Connect and Collabrate With Your Perfect influncers Across Instagram and Youtube</p>
-            <button class="influncer-button">Viwe similar influncers</button>
+            <button class="influncer-button">Viwe similar influncers
+                <div class="influncer-button-animate"></div>
+            </button>
         </div>
         <div class="influncer-image">
 <div class="influncer-image-container-1">
-    <div class="card-1 span">
+    <div class="card-1 span" id="influncer-image-container">
         <div class="inner-img"> <img src="/assets/images/vivek-jadoo.webp" alt=""></div>
         <img src="/assets/images/vivek-jadoo.webp" alt="">
         <div class="image-text">
             <p class="top">vlog</p>
             <h3 class="name">vivek-jadoo</h3>
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
     </div>
-    <div class="card-1 span">
+    <div class="card-1 span" id="influncer-image-container">
         <div class="inner-img"><img src="/assets/images/idris-explore.webp" alt=""></div>
         <img src="/assets/images/idris-explore.webp" alt="">
         <div class="image-text">
             <p class="top">Food/vlog</p>
             <h3 class="name">idris-explore</h3>
         </div>
-        <span class="rating"><img src="/assets/logo/star.png">4.7</span>
+        <span class="rating"><img src="/assets/logo/star-1.jpg">4.7</span>
        
     </div>
-    <div class="card-1 span">
+    <div class="card-1 span" id="influncer-image-container">
         <div class="inner-img"> <img src="/assets/images/channel_profile3.webp" alt=""></div>
         <img src="/assets/images/channel_profile3.webp" alt="">
         <div class="image-text">
             <p class="top"> vlog</p>
             <h3 class="name">Sidharth</h3>
         </div>
-        <span><img src="/assets/logo/star.png">4.7</span>
+        <span><img src="/assets/logo/star-1.jpg">4.7</span>
       
     </div>
-    <div class="card-1 span">
+    <div class="card-1 span" id="influncer-image-container">
         <div class="inner-img"> <img src="/assets/images/channel_couple.webp" alt=""></div>
         <img src="/assets/images/channel_couple.webp" alt="">
         <div class="image-text">
@@ -108,29 +120,29 @@
             <h3 class="name">Namma ooru...</h3>
             
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
     </div> 
-    <div class="card-1 span">
+    <div class="card-1 span" id="influncer-image-container">
         <div class="inner-img"> <img src="/assets/images/channel_profile.webp" alt=""></div>
         <img src="/assets/images/channel_profile.webp" alt="">
         <div class="image-text">
             <p class="top">cooking</p>
             <h3 class="name">Chief dheena's kitchen></h3>
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
      
     </div>
-    <div class="card-1 span">
+    <div class="card-1 span" id="influncer-image-container">
         <div class="inner-img"> <img src="/assets/images/channel_profile3.webp" alt=""></div>
         <img src="/assets/images/channel_profile3.webp" alt="">
         <div class="image-text">
             <p class="top"> vlog</p>
             <h3 class="name">Sidharth</h3>
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
       
     </div>
-    <div class="card-1 span">
+    <div class="card-1 span" id="influncer-image-container">
         <div class="inner-img"> <img src="/assets/images/channel_couple.webp" alt=""></div>
         <img src="/assets/images/channel_couple.webp" alt="">
         <div class="image-text">
@@ -138,11 +150,11 @@
             <h3 class="name">Namma ooru...</h3>
             
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
     </div> 
 
 </div>
-<div class="influncer-image-container-2">
+<div class="influncer-image-container-2" id="influncer-image-container-2">
     <div class="card-2 span">
         <div class="inner-img"><img src="/assets/images/banana-leaf.webp" alt=""></div>
         <img src="/assets/images/banana-leaf.webp" alt="">
@@ -150,7 +162,7 @@
             <p class="top"> vlog</p>
             <h3 class="name">Sidharth</h3>
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>     
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>     
     </div>
     <div class="card-2 span">
         <div class="inner-img"><img src="/assets/images/hema-kitchen.webp" alt=""></div>
@@ -158,7 +170,7 @@
         <div class="image-text">
             <p class="top">vlog</p>
             <h3 class="name">Namma ooru...</h3>
-            
+            <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
         </div>
         <span>* 4.7</span>
     </div> <div class="card-2 span">
@@ -169,7 +181,7 @@
             <h3 class="name">Chief dheena's kitchen</h3>
             
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
     </div>
 
     <div class="card-2 span">
@@ -179,7 +191,7 @@
             <p class="top"> vlog</p>
             <h3 class="name">Sidharth</h3>
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>     
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>     
     </div>
     <div class="card-2 span">
         <div class="inner-img"><img src="/assets/images/hema-kitchen.webp" alt=""></div>
@@ -189,7 +201,7 @@
             <h3 class="name">Namma ooru...</h3>
             
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
     </div> <div class="card-2 span">
         <div class="inner-img"> <img src="/assets/images/cyber-tamizha.webp" alt=""></div>
         <img src="/assets/images/cyber-tamizha.webp" alt="">
@@ -198,7 +210,7 @@
             <h3 class="name">Chief dheena's kitchen</h3>
             
         </div>
-        <span><img src="/assets/logo/star.png"> 4.7</span>
+        <span><img src="/assets/logo/star-1.jpg"> 4.7</span>
     </div>
 
 </div>
@@ -212,16 +224,22 @@
 
                 <img src="./assets/images/meet.jpg" alt="">
                 <p class="img-text1">Brands</p>
+                <span class=" youtube1 hover">
+                    <img src="/assets/logo/youtube.png" width="40px" style="border-radius: 50px" class="youtube-icon" alt="youtube">
+                </span>
             </div>
             <div class="image-2">
 
                 <img src="./assets/images/girl.jpg" alt="">
                 <p class="img-text2">Influncers</p>
+                <span class=" youtube2 hover">
+                    <img src="/assets/logo/youtube.png" width="40px" class="youtube-icon" alt="youtube">
+                </span>
             </div>
         </div>
         <div class="pickmyad-work-content">
             <p class="title-top">HOW IT WORKS ?</p>
-            <h1 class="work-title"> Easily browse,<br>Connect and collaborate securly on our platform.</h1>
+            <h1 class="work-title"> Easily browse,Connect<br> and collaborate securly on our platform.</h1>
             <p class="work-info">Effortlessly find the perfect influncers for your brand and collaborate with confidence on uor secure platform</p>
             <div class="success">
                 <div class="success-content">
@@ -272,90 +290,186 @@
         </div>
         <div class="inspire-cards-container">
 <div class="inspire-cards">
-    <div class="card" style="background-color:#e6f6eb;">
-        <div class="card-logo"><img src="./assets/logo/mobiles.png" alt=""></div>
-        <p class="card-top card-top-1"> ELECTRONIC DEVICES</p>
-        <h1 class="card-title">The chennai <br>Mobiles</h1>
-            <p class="card-info ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae enim distinctio explicabo amet reiciendis, eum doloribus</p>
-            <div class="card-button">
-                <button class="button-1">Read More</button>
-               
-            </div>
-    </div>
-
     <div class="card" style="background-color: #f8e3e4">
         <div class="card-logo"><img src="./assets/logo/divine.png" alt=""></div>
         <p class="card-top card-top-2"> FOOD AND REVERGE EXPORTER</p>
         <h1 class="card-title">The Divine <br> Foods</h1>
-            <p class="card-info-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum reprehenderit incidunt rationer </p>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
             <div class="card-button">
                 <button  class="button-2">Read More</button>
                 
             </div>
-    </div>
-    <div class="card" style="background-color: #e1e3ef">
-        <div class="card-logo"><img src="./assets/logo/guvi.png" alt=""></div>
-        <p class=" card-top card-top-3"> LEARNING PLATFORM</p>
-        <h1 class="card-title">GUVI</h1>
-        <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nobis maiores est ration</p>
-            <div class="card-button">
-                <button  class="button-3">Read More</button>
-               
-            </div>
-    </div>
-    <div class="card" style="background-color:#e6f6eb;">
-        <div class="card-logo"><img src="./assets/logo/mobiles.png" alt=""></div>
-        <p class="card-top card-top-1"> ELECTRONIC DEVICES</p>
-        <h1 class="card-title">The chennai <br>Mobiles</h1>
-            <p class="card-info ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae enim distinctio explicabo amet reiciendis, eum doloribus</p>
-            <div class="card-button">
-                <button class="button-1">Read More</button>
-               
-            </div>
-          
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
     </div>
 
+    <div class="card" style="background-color: #e1e4ee">
+        <div class="card-logo"><img src="./assets/logo/guvi.png" alt=""></div>
+        <p class="card-top card-top-3">EDUCATION COMPANY</p>
+        <h1 class="card-title">Guvi</h1>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
+            <div class="card-button">
+                <button  class="button-2">Read More</button>
+                
+            </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
+    </div>
+    <div class="card" style="background-color: #e7f6eb">
+        <div class="card-logo"><img src="./assets/logo/mobiles.png" alt=""></div>
+        <p class="card-top card-top-1">ELECTRONIC DEVICES</p>
+        <h1 class="card-title">The Chennai <br>Mobiles</h1>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
+            <div class="card-button">
+                <button  class="button-2">Read More</button>
+                
+            </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
+    </div>
     <div class="card" style="background-color: #f8e3e4">
         <div class="card-logo"><img src="./assets/logo/divine.png" alt=""></div>
         <p class="card-top card-top-2"> FOOD AND REVERGE EXPORTER</p>
         <h1 class="card-title">The Divine <br> Foods</h1>
-            <p class="card-info-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum reprehenderit incidunt rationer </p>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
             <div class="card-button">
                 <button  class="button-2">Read More</button>
                 
             </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
     </div>
-    <div class="card" style="background-color: #e1e3ef">
+
+    <div class="card" style="background-color:#e1e4ee">
         <div class="card-logo"><img src="./assets/logo/guvi.png" alt=""></div>
-        <p class=" card-top card-top-3"> LEARNING PLATFORM</p>
-        <h1 class="card-title">GUVI</h1>
-        <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nobis maiores est ration</p>
+        <p class="card-top card-top-3">EDUCATION COMPNNY</p>
+        <h1 class="card-title">Guvi</h1>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
             <div class="card-button">
-                <button  class="button-3">Read More</button>
-               
+                <button  class="button-2">Read More</button>
+                
             </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
+    </div>
+    <div class="card" style="background-color:#e7f6eb">
+        <div class="card-logo"><img src="./assets/logo/mobiles.png" alt=""></div>
+        <p class="card-top card-top-1">ELECTRONIC DEVICES</p>
+        <h1 class="card-title">The Chennai<br>Mobiles</h1>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing</p>
+            <div class="card-button">
+                <button  class="button-2">Read More</button>
+                
+            </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
+    </div>
+    <div class="card" style="background-color: #f8e3e4">
+        <div class="card-logo"><img src="./assets/logo/divine.png" alt=""></div>
+        <p class="card-top card-top-2"> FOOD AND REVERGE EXPORTER</p>
+        <h1 class="card-title">The Divine <br> Foods</h1>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
+            <div class="card-button">
+                <button  class="button-2">Read More</button>
+                
+            </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
+    </div>
+
+    <div class="card" style="background-color: #f8e3e4">
+        <div class="card-logo"><img src="./assets/logo/divine.png" alt=""></div>
+        <p class="card-top card-top-3">EDUCATION COMPANY</p>
+        <h1 class="card-title">Guvi</h1>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
+            <div class="card-button">
+                <button  class="button-2">Read More</button>
+                
+            </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
+    </div>
+    <div class="card" style="background-color: #f8e3e4">
+        <div class="card-logo"><img src="./assets/logo/mobiles.png" alt=""></div>
+        <p class="card-top card-top-1">ELECTRONIC DEVICES</p>
+        <h1 class="card-title">The Chennai<br>Mobiles</h1>
+            <p class="card-info">The Divine Foods Phenominal Success Through Influncer Marketing  </p>
+            <div class="card-button">
+                <button  class="button-2">Read More</button>
+                
+            </div>
+                <img class="arrow-icon"src="./assets/logo/right-arrow.png"  alt="arrow">
     </div>
 </div>
 </div>
 <!-- faq-container -->
     </div>
-    <h1 class="faq-head">FAQ</h1>
-    <h1 class="faq-head-resposive">Frequently Asked Questions.</h1>
+    <h1 class="faq-head">FAQ`S</h1>
     <div class="faq-container">
+        <h5 class="faq-head-resposive">Frequently Asked Questions.</h5>
        
-        <ul class="faq-left">
-            <li>How do I book Influencers for Promotion? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li> 
-            <li>Why KYC verification & completion is needed? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
-            <li>What are documents needed for KYC completion? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
-            <li>I have signed up on PickMyAd.com, what do I do next? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
-            <li>HOW much Will I be paid for my work? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
-            <li>When Will I be paid for my work? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+        <ul class="faq-left" id="faq">
+            <div class="list-div">
+
+                <li id="list" onclick="togglechange('selectid1')">How do I book Influencers for Promotion? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span>
+               </li>
+                <div class="sub-info" id="selectid1" >
+                    Register as a brand and complete your KYC process to access all Influencer pricing. Create your campaign, explore Influencers, add them to your wish list, and request their pricing. Once you receive the pricing details, you can easily book your chosen Influencer by making a secure payment through various methods (credit cards, UPI, NEFT, etc.). Collaboration begins once the payment is confirmed. Influencers receive payment from PickMyAd's escrow only after successful content publishing. For more information Read refund policy & cancellation policy here.
+                </div> 
+            </div>
+            <div class="list-div">
+
+                <li id="list" onclick="togglechange('selectid2')">Why KYC verification & completion is needed? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+                <div class="sub-info" id="selectid2">
+                    KYC completion is absolutely necessary for any brand without which they can’t view any Influencer pricing for booking. This also helps Influencers to work with you more confidently.
+                </div>
+            </div>
+           <div class="list-div">
+
+               <li id="list" onclick=" togglechange('selectid3')">What are documents needed for KYC completion? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+               <div class="sub-info" id="selectid3">
+                   Brands need to submit their company proof like Company cancelled Cheque / Bank Statement / Registration Certificate (anyone), Company Pan & Signatory Pan (both), and GSTIN certificate (if registered).
+               </div>
+           </div>
+
+          <div class="list-div">
+              <li id="list" onclick="togglechange('selectid4')">I have signed up on PickMyAd.com, what do I do next? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+  
+              <div class="sub-info" id="selectid4">Complete your profile which helps brands in booking you. Then, Sit back and do your content creation, we will intimate you through email & Whatsapp in case of brand booking happens. Happy Influencing!</div>
+        </div>
+        <div class="list-div">
+            <li id="list" onclick="togglechange('selectid5')">How much Will I be paid for my work? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+            <div class="sub-info" id="selectid5">
+                It is completely free to sign up for both influencer and brands . PickMyAd will charge 10% from the brands upon successful completion of each campaign.
+            </div>
+        </div>
+        <div class="list-div">
+
+            <li id="list" onclick="togglechange('selectid6')">When Will I be paid for my work? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+            <div class="sub-info" id="selectid6">
+                PickMyAd automatic system will compensate the amount you agreed with the brand within 24 hours of publishing the content and pasting the link in the particular booking inside the campaign dashboard.
+            </div>
+        </div>
         </ul>
-        <ul class="faq-right">
-            <li>Is there a way to delete my account in PickMyAd? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
-            <li>How to Join PickMyAd as an Influencer? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
-            <li>HOW does PickMyAd work for Influencers? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
-            <li>Will PickMyAd have access to post on my Social Media Accounts? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+        <ul class="faq-right" id="faq">
+            <div class="list-div">
+                <li id="list"  onclick="togglechange('selectid7')">Is there a way to delete my account in PickMyAd? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+                 <div class="sub-info" id="selectid7">
+                    Oops, we’re sorry that you want to leave, but we respect your decision. sure in case you do want to delete you can delete your account form the setting sections of your PickMyAd account.
+                 </div>
+            </div>
+            <div class="list-div">
+                <li id="list" onclick="togglechange('selectid8')">How to Join PickMyAd as an Influencer? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+                <div class="sub-info" id="selectid8">
+                    Sign up as an Influencer on <a  style="text-decoration: none" href=" www.pickmyad.com/signup"> www.pickmyad.com/signup.</a>Go to "Brand Collab" module in the apps section and enable the module and Link your profile by including the URLs of your social media accounts, such as your YouTube channel and Instagram profile. Configure your account and let the brands easily book your services.
+                </div>
+            </div>
+            <div class="list-div">
+
+                <li id="list"  onclick="togglechange('selectid9')">How does PickMyAd work for Influencers? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+                <div class="sub-info" id="selectid9">
+                    "PickMyAd collaborates with top-notch, KYC-verified brands. Only verified Brands can select you, request your pricing, and propose collaborations. You decide to accept or decline. Upon agreement, brands book your service in advance, empowering you to create compelling content. Once you publish the content, payment is securely transferred to you through PickMyAd's Escrow system."
+                </div>
+            </div>
+            <div class="list-div">
+
+                <li id="list" onclick="togglechange('selectid10')">Will PickMyAd have access to post on my Social Media Accounts? <span><img src="./assets/logo/arrow-down-sign-to-navigate.png" alt=""></span></li>
+                <div class="sub-info" id="selectid10">
+                    Absolutely not. There's no need to link your account. Simply provide your social media profile URL to PickMyAd. Rest assured, we only access your public information. This process is highly secure and widely used by various organizations, ensuring your privacy and security remain intact at all times.
+                </div>
+            </div>
             <div class="faq-box">
                 <div class="faq-box-content">
                <p class=" faq-title">Still Have Questions?</p>
@@ -399,12 +513,17 @@
         
                 </ul>
             </div>
+            <div class="line"></div>
         </div>
         <div class="footer-end">
             <p class="end-left">Made with in <span><img src="./assets/logo/heart.png" alt=""></span> india IN</p>
             <p class="end-right">&#169;2023 All Rights Received By Pickmyad</p>
         </div>
     </footer>
+    <div class="message"><img src="./assets/logo/whatsapp.png" alt="Whatsapp"><span>Message Us</span></div>
+    <script src="/script/ScrollEvent.js"></script>
+    <script src ="/script/Deligation.js"></script>
+    </div>
 </body>
 
 </html>
